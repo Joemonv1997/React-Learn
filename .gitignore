@@ -1,3 +1,7 @@
+.DS_Store
 02-Initialize/.parcel-cache
 02-Initialize/dist
 02-Initialize/node_modules
+03-React/.parcel-cache
+03-React/dist
+03-React/node_modules

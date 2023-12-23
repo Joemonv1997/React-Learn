@@ -1,0 +1,26 @@
+{
+  "name": "02-initialize",
+  "version": "1.0.0",
+  "description": "React Learning Part2",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Joemonv1997/React-Learn.git"
+  },
+  "author": "Joemon V Velassery",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Joemonv1997/React-Learn/issues"
+  },
+  "homepage": "https://github.com/Joemonv1997/React-Learn#readme",
+  "devDependencies": {
+    "parcel": "^2.10.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
