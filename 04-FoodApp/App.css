@@ -1,0 +1,50 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.company_menu > ul {
+  display: flex;
+}
+.company_menu > ul > li {
+  list-style: none;
+  padding: 5;
+  margin: 10;
+  font-size: 24px;
+}
+.logo {
+  width: 50px;
+}
+
+.res-container {
+  width: 180px;
+  flex-wrap: wrap;
+  height: 550px;
+  border: 3px solid greenyellow;
+  justify-content: center;
+  margin-top: 10px;
+}
+.container-res {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.res-food {
+  width: 80%;
+}
+
+.res-container:hover {
+  border: 3px solid rebeccapurple;
+  cursor: pointer;
+}
+
+.title {
+  color: red;
+}
+.star {
+  color: green;
+}
+.time {
+  color: blue;
+}
