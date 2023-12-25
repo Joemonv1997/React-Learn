@@ -7,3 +7,5 @@
 ##### [03-React](./03-React)
 
 [04-FoodApp](./04-FoodApp)
+
+[05-SwiggyState](./05-Swiggy)
