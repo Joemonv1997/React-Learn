@@ -1,11 +1,14 @@
 import React from "react";
+import { Link } from "react-router-dom";
 const RestaurentContainer = (props) => {
   return (
     <div className="res-container">
       <img src={props.src} alt={props.text} className="res-food" />
       <h4>
-        <span className="title"> Title: </span> {props.text}
+        <span className="title"> Title: </span>
+        {props.text}
       </h4>
+      {props.text}
       <h4>
         <span className="title"> Title: </span> {props.cusines}
       </h4>

@@ -50,10 +50,12 @@ const Body = () => {
       </button>
 
       <div className="container-res">
+        console.log(filterData,"kjhgf")
         {filterData.map((resdata) => {
           return (
             <RestaurentContainer
               key={resdata.info.id}
+              id={resdata.info.id}
               src={`${Swiggy_Img_URL}/${resdata.info.cloudinaryImageId}`}
               text={resdata.info.name}
               cusines={resdata.info.cuisines.join(" ,")}
