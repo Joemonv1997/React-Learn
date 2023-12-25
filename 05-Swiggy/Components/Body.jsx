@@ -1,10 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Swiggy_Img_URL } from "../utils/constants";
 import { data } from "../utils/data";
 import RestaurentContainer from "./RestaurentContainer";
 import Search from "./Search";
 const Body = () => {
   const [responseData, setResponseData] = useState(data);
+  useEffect(()=>{
+    console.log("useEffect Added")
+  },[])
   return (
     <div className="">
       <Search />
