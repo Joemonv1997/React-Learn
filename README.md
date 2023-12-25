@@ -9,3 +9,5 @@
 [04-FoodApp](./04-FoodApp)
 
 [05-SwiggyState](./05-Swiggy)
+
+[06-Effect](./06-Effect)
