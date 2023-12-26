@@ -11,3 +11,7 @@
 [05-SwiggyState](./05-Swiggy)
 
 [06-Effect](./06-Effect)
+
+[07-ReactRouter](./07-ReactRouter)
+
+[08-Class](./08-Class)
